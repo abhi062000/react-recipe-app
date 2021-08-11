@@ -17,6 +17,7 @@
 
 .recipeTile__img:hover {
   background-blend-mode: overlay;
+  background-color: rgb(190, 189, 189);
 }
 
 .recipeTile__name {
