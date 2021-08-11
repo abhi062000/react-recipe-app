@@ -5,7 +5,7 @@ import RecipeTile from "./components/recipe-tile";
 require("dotenv").config();
 const APP_ID = process.env.REACT_APP_APP_ID;
 const APP_KEY = process.env.REACT_APP_APP_KEY;
-console.log("ENV", process.env);
+
 
 function App() {
   const [query, setquery] = useState("");
